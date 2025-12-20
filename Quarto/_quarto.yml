@@ -1,25 +1,26 @@
 project:
-  type: book
+  type: website
+  output-dir: docs
 
-book:
-  title: "PartageData"
-  author: "Pierre Fischer"
-  date: "12/20/2025"
-  chapters:
-    - index.qmd
-    - intro.qmd
-    - summary.qmd
-    - references.qmd
+execute:
+  echo: false  
 
-bibliography: references.bib
+website:
+  title: "Partage26"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+    right:
+      - icon: github
+        href: https://github.com/
 
 format:
   html:
-    theme:
-      - cosmo
-      - brand
-  pdf:
-    documentclass: scrreprt
+    theme: lumen
+    css: styles.css
+    toc: true
 
+bibliography: references.bib
 
-
+editor: visual

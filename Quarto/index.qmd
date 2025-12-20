@@ -1,5 +1,12 @@
-# Preface {.unnumbered}
+---
+title: "About"
+listing:
+  contents: "."
+  sort: "date-desc"
+  type: default
+image: profile.jpg
+about:
+  template: jolla
+---
 
-This is a Quarto book.
-
-To learn more about Quarto books visit <https://quarto.org/docs/books>.
+**Partage26** is cma_resume_2026 alias lotz_track.
