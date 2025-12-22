@@ -1,44 +1,51 @@
 [
   {
-    "objectID": "intro.html",
-    "href": "intro.html",
-    "title": "Introduction",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
     "section": "",
-    "text": "Introduction\nThis is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n\n\n\n\nReferences\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
+    "text": "About this blog"
   },
   {
-    "objectID": "cma_exceptions/index.html",
-    "href": "cma_exceptions/index.html",
+    "objectID": "posts/pdf_collection/index.html",
+    "href": "posts/pdf_collection/index.html",
+    "title": "PDF_Collection",
+    "section": "",
+    "text": "here it is.\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\npath\n\n\n\nTitle\n\n\n\n\n\n\n\n\n/posts/pdf_collection/pdfs/CM_TOP_depenses.pdf\n\n\n \n\n\n\n\n\n\n/posts/pdf_collection/pdfs/CM_turnover.pdf\n\n\n \n\n\n\n\n\n\n/posts/pdf_collection/pdfs/FRAIS_FISCHER.pdf\n\n\n \n\n\n\n\n\n\n/posts/pdf_collection/pdfs/cm_cashflow.pdf\n\n\n \n\n\n\n\n\n\npdfs/cm_cashflow.pdf\n\n\nArchived Item 1\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/where/index.html",
+    "href": "posts/where/index.html",
+    "title": "Where are the Docs?",
+    "section": "",
+    "text": "label\ndescription\nnature\n\n\n\n\nlotzscribe\nmémoire\npackage\n\n\nlotz_scribe\nC:/myHUL/VOL/RS_ext/lotz_scribe\ndossier\n\n\nlotz_technique\nanalyse technique\npackage\n\n\nfly_tribunal\ncahier des charges\npackage\n\n\ncma_legacy\npremières données bancaires\npackage\n\n\ncma\ndonnées bancaires rééditées\npackage\n\n\nprtg\nsite de compilation\npackage"
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code."
+  },
+  {
+    "objectID": "posts/cma_exceptions/index.html",
+    "href": "posts/cma_exceptions/index.html",
     "title": "CMA Exceptions",
     "section": "",
     "text": "CMA exceptions are outbound accounting movement of cash, not compensated by the gain of goods or services or charges.\n\n\n\n\n\n\n\n\nrid\nlibelle\nyear\nmonth\nvalue\nisZanette\nts\nvar\n\n\n\n\n163\nVIR ZANETTE\n2012\n10\n73840.00\nTRUE\n2012-10-01\nzanette-exception-credit\n\n\n245\nSOL.CLOT 01896 20200401\n2013\n2\n40.10\nFALSE\n2013-02-01\nexception-credit\n\n\n282\nSOUS CAP EXP 01896 13058301\n2013\n4\n-59000.00\nTRUE\n2013-04-01\nzanette-exception-debit\n\n\n283\nVIR 102780189600013058360\n2013\n4\n-4000.00\nTRUE\n2013-04-01\nzanette-exception-debit\n\n\n382\nCHEQUE 0636297 T066-9182-00111\n2013\n9\n-2500.00\nTRUE\n2013-09-01\nzanette-exception-debit\n\n\n414\nSOUSC. 5.000 PSB AVENIR\n2013\n10\n-5000.00\nTRUE\n2013-10-01\nzanette-exception-debit\n\n\n494\nCHEQUE 0667488 T069-0216-00111\n2014\n2\n-1000.00\nTRUE\n2014-02-01\nzanette-exception-debit\n\n\n573\nREINV 92 PSB AVENIR A 1 EUR\n2014\n6\n-92.00\nTRUE\n2014-06-01\nzanette-exception-debit\n\n\n576\nINTERETS PARTS SOCIALES 2013\n2014\n6\n92.11\nTRUE\n2014-06-01\nzanette-exception-credit\n\n\n822\nCHEQUE 0880812 T083-9154-00111\n2015\n6\n-1340.00\nTRUE\n2015-06-01\nzanette-exception-debit\n\n\n826\nREINV 121 PSB AVENIR A 1 EUR\n2015\n6\n-121.00\nTRUE\n2015-06-01\nzanette-exception-debit\n\n\n827\nINTERETS PARTS SOCIALES 2014\n2015\n6\n121.32\nTRUE\n2015-06-01\nzanette-exception-credit\n\n\n1089\nREINV 116 PSB AVENIR A 1 EUR\n2016\n6\n-116.00\nTRUE\n2016-06-01\nzanette-exception-debit\n\n\n1092\nREMUNERATION 2015 - PARTS\n2016\n6\n116.18\nTRUE\n2016-06-01\nzanette-exception-credit\n\n\n1313\nVIR PEL\n2017\n4\n-540.00\nTRUE\n2017-04-01\nzanette-exception-debit\n\n\n1339\nREINV 78 PSB AVENIR A 1 EUR\n2017\n6\n-78.00\nTRUE\n2017-06-01\nzanette-exception-debit\n\n\n1341\nREMUNERATION 2016 - PARTS\n2017\n6\n78.37\nTRUE\n2017-06-01\nzanette-exception-credit\n\n\n1349\nVIR 10278018960001305836065\n2017\n6\n10000.00\nFALSE\n2017-06-01\nexception-credit\n\n\n1585\nREMUNERATION 2017 - PARTS\n2018\n6\n101.69\nTRUE\n2018-06-01\nzanette-exception-credit\n\n\n1589\nREINV 101 PSB AVENIR A 1 EUR\n2018\n6\n-101.00\nTRUE\n2018-06-01\nzanette-exception-debit\n\n\n1823\nREINV 109 PSB AVENIR A 1 EUR\n2019\n6\n-109.00\nTRUE\n2019-06-01\nzanette-exception-debit\n\n\n1824\nREMUNERATION 2018 - PARTS\n2019\n6\n109.91\nTRUE\n2019-06-01\nzanette-exception-credit\n\n\n1852\nVIR 10278018960001305836065\n2019\n7\n2500.00\nTRUE\n2019-07-01\nzanette-exception-credit\n\n\n1870\nMLE MICHELE FISCHER\n2019\n8\n5000.00\nFALSE\n2019-08-01\nexception-credit\n\n\n2322\nREINV 66 PSB AVENIR\n2021\n6\n-66.00\nTRUE\n2021-06-01\nzanette-exception-debit\n\n\n2324\nREMUNERATION 2020\n2021\n6\n66.90\nTRUE\n2021-06-01\nzanette-exception-credit\n\n\n2386\nSOLDE PEL 01896 00013058301\n2021\n9\n72184.92\nTRUE\n2021-09-01\nzanette-exception-credit"
   },
   {
-    "objectID": "references.html",
-    "href": "references.html",
-    "title": "References",
-    "section": "",
-    "text": "References"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "About",
+    "title": "QW",
     "section": "",
-    "text": "Partage26 is cma_resume_2026 alias lotz_track.\n\n\n\n\n\n\n\n\n\n\nReferences\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCMA Exceptions\n\n\n\n\n\n\n\n\nApr 9, 2024\n\n\npjf\n\n\n\n\n\n\n\n\n\n\nSummary\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIntroduction\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "summary.html",
-    "href": "summary.html",
-    "title": "Summary",
-    "section": "",
-    "text": "Summary\nIn summary, this book has no content whatsoever."
-  },
-  {
-    "objectID": "where/index.html",
-    "href": "where/index.html",
-    "title": "Where are the Docs?",
-    "section": "",
-    "text": "label\ndescription\nnature\n\n\n\n\nlotzscribe\nmémoire\npackage\n\n\nlotz_technique\nanalyse technique\npackage\n\n\nfly_tribunal\ncahier des charges\npackage\n\n\ncma_legacy\npremières données bancaires\npackage\n\n\ncma\ndonnées bancaires rééditées\npackage\n\n\nprtg\nsite de compilation\npackage"
+    "text": "Post With Code\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\n\n\nDec 21, 2025\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWhere are the Docs?\n\n\n\nfinance\n\n\n\n\n\n\n\n\n\nDec 20, 2025\n\n\npjf\n\n\n\n\n\n\n\n\n\n\n\n\nPDF_Collection\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nDec 19, 2025\n\n\nPierre F.\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nDec 18, 2025\n\n\nTristan O’Malley\n\n\n\n\n\n\n\n\n\n\n\n\nCMA Exceptions\n\n\n\nfinance\n\n\n\n\n\n\n\n\n\nApr 9, 2024\n\n\npjf\n\n\n\n\n\nNo matching items"
   }
 ]

@@ -1,0 +1,14 @@
+---
+title: "PDF_Collection"
+author: "Pierre F."
+date: "2025-12-19"
+categories: [news]
+listing: 
+  type: table
+  contents: 
+    - "pdfs/*.pdf"
+    - archived-items.yaml
+  fields: [ path , title]
+---
+
+here it is.

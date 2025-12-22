@@ -1,11 +1,16 @@
 [
   {
+    "listing": "/posts/pdf_collection/index.html",
+    "items": []
+  },
+  {
     "listing": "/index.html",
     "items": [
-      "/references.html",
-      "/cma_exceptions/index.html",
-      "/summary.html",
-      "/intro.html"
+      "/posts/post-with-code/index.html",
+      "/posts/where/index.html",
+      "/posts/pdf_collection/index.html",
+      "/posts/welcome/index.html",
+      "/posts/cma_exceptions/index.html"
     ]
   }
 ]

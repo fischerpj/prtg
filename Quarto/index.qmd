@@ -1,12 +1,14 @@
 ---
-title: "About"
+title: "QW"
 listing:
-  contents: "."
-  sort: "date-desc"
+  contents: posts
+  sort: "date desc"
   type: default
-image: profile.jpg
-about:
-  template: jolla
+  categories: true
+  sort-ui: false
+  filter-ui: false
+page-layout: full
+title-block-banner: true
 ---
 
-**Partage26** is cma_resume_2026 alias lotz_track.
+

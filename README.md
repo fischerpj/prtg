@@ -5,3 +5,5 @@ README.md for "partg"
 - in ./Quarto quarto render
 - DATA is cma::
 - 2552 PUSHUP GH
+
+in Quarto: quarto render 
