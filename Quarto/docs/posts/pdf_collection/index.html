@@ -81,9 +81,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-path','listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-filename-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-title-sort'] },{ data: ['listing-date-sort'] }],
+      valueNames: ['listing-filename','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] },{ data: ['listing-date-sort'] },{ data: ['listing-filename-sort'] }],
       
-      searchColumns: ["listing-project","listing-execute","listing-website","listing-format","listing-language","listing-freeze","listing-title-block-banner","listing-author","listing-description","listing-filename","listing-file-modified","listing-title","listing-date","listing-categories"],
+      searchColumns: ["listing-title","listing-description","listing-author","listing-date","listing-filename","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -227,8 +227,11 @@ window.Quarto = {
     <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
       <option value="" disabled="" selected="" hidden="">Order By</option>
       <option value="index" data-direction="asc">Default</option>
-      <option value="listing-title-sort" data-direction="asc">
-        Title
+      <option value="listing-description" data-direction="asc">
+        Description
+      </option>
+      <option value="listing-filename-sort" data-direction="asc">
+        File Name
       </option>
     </select>
   </div>
@@ -242,63 +245,53 @@ window.Quarto = {
 <tr>
 
 <th>
-path
+<a class="sort" data-sort="listing-filename-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">File Name</a>
 </th>
 
 <th>
-<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Title</a>
+<a class="sort" data-sort="listing-description" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Description</a>
 </th>
 
 </tr>
 </thead>
 <tbody class="list">
 
-<tr data-index="0" data-listing-file-modified-sort="1766390297035" data-listing-filename-sort="CM_TOP_depenses.pdf">
+<tr data-index="0" data-categories="cGRm" data-listing-date-sort="1577836800000" data-listing-title-sort="cm_cashflow" data-listing-filename-sort="cm_cashflow.pdf">
 <td>
-<span class="listing-path">/posts/pdf_collection/pdfs/CM_TOP_depenses.pdf</span>
+<a href="pdfs/cm_cashflow.pdf" class="filename listing-filename">cm_cashflow.pdf</a>
 </td>
 <td>
-<a href="../../posts/pdf_collection/pdfs/CM_TOP_depenses.pdf" class="title listing-title">&nbsp;</a>
-</td>
-
-</tr>
-
-<tr data-index="1" data-listing-file-modified-sort="1766390297038" data-listing-filename-sort="CM_turnover.pdf">
-<td>
-<span class="listing-path">/posts/pdf_collection/pdfs/CM_turnover.pdf</span>
-</td>
-<td>
-<a href="../../posts/pdf_collection/pdfs/CM_turnover.pdf" class="title listing-title">&nbsp;</a>
+<span class="listing-description">un train de vie déficitaire</span>
 </td>
 
 </tr>
 
-<tr data-index="2" data-listing-file-modified-sort="1766390297037" data-listing-filename-sort="FRAIS_FISCHER.pdf">
+<tr data-index="1" data-categories="cGRm" data-listing-date-sort="1577836800000" data-listing-title-sort="CM_TOP_depenses" data-listing-filename-sort="CM_TOP_depenses.pdf">
 <td>
-<span class="listing-path">/posts/pdf_collection/pdfs/FRAIS_FISCHER.pdf</span>
+<a href="pdfs/CM_TOP_depenses.pdf" class="filename listing-filename">CM_TOP_depenses.pdf</a>
 </td>
 <td>
-<a href="../../posts/pdf_collection/pdfs/FRAIS_FISCHER.pdf" class="title listing-title">&nbsp;</a>
-</td>
-
-</tr>
-
-<tr data-index="3" data-listing-file-modified-sort="1766390297036" data-listing-filename-sort="cm_cashflow.pdf">
-<td>
-<span class="listing-path">/posts/pdf_collection/pdfs/cm_cashflow.pdf</span>
-</td>
-<td>
-<a href="../../posts/pdf_collection/pdfs/cm_cashflow.pdf" class="title listing-title">&nbsp;</a>
+<span class="listing-description">TOP5% explique 47% des dépenses sur 10ans</span>
 </td>
 
 </tr>
 
-<tr data-index="4" data-categories="YXJjaGl2ZWQlMkN0ZWNobm9sb2d5" data-listing-date-sort="1577836800000" data-listing-title-sort="Archived Item 1">
+<tr data-index="2" data-categories="cGRm" data-listing-date-sort="1577836800000" data-listing-title-sort="Turnover sur 10 ans" data-listing-filename-sort="CM_turnover.pdf">
 <td>
-<span class="listing-path">pdfs/cm_cashflow.pdf</span>
+<a href="pdfs/CM_turnover.pdf" class="filename listing-filename">CM_turnover.pdf</a>
 </td>
 <td>
-<a href="pdfs/cm_cashflow.pdf" class="title listing-title">Archived Item 1</a>
+<span class="listing-description">turnover de 500K€ sur 10ans</span>
+</td>
+
+</tr>
+
+<tr data-index="3" data-categories="cGRm" data-listing-date-sort="1577836800000" data-listing-title-sort="Frais de Relevés Bancaires" data-listing-filename-sort="FRAIS_FISCHER.pdf">
+<td>
+<a href="pdfs/FRAIS_FISCHER.pdf" class="filename listing-filename">FRAIS_FISCHER.pdf</a>
+</td>
+<td>
+<span class="listing-description">frais pour relevé bancaire</span>
 </td>
 
 </tr>
@@ -379,7 +372,7 @@ path
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/partage26\.netlify\.app");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

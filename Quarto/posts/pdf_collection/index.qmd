@@ -6,9 +6,8 @@ categories: [news]
 listing: 
   type: table
   contents: 
-    - "pdfs/*.pdf"
     - archived-items.yaml
-  fields: [ path , title]
+  fields: [ filename , description]
 ---
 
 here it is.

@@ -1,5 +1,28 @@
-- title: "Archived Item 1"
-  author: Norah Jones
+- title: "cm_cashflow"
+  description: "un train de vie déficitaire"
+  author: "Pierre Fischer"
   date: 2020-01-01
   path: "pdfs/cm_cashflow.pdf"
-  categories: [archived, technology]
+  filename: "cm_cashflow.pdf"
+  categories: [pdf]
+- title: "CM_TOP_depenses"
+  path: "pdfs/CM_TOP_depenses.pdf"
+  filename: "CM_TOP_depenses.pdf"
+  description: "TOP5% explique 47% des dépenses sur 10ans"
+  author: "Pierre Fischer"
+  date: 2020-01-01
+  categories: [pdf]
+- title: "Turnover sur 10 ans"
+  path: "pdfs/CM_turnover.pdf"
+  filename: "CM_turnover.pdf"
+  description: "turnover de 500K€ sur 10ans"
+  author: "Pierre Fischer"
+  date: 2020-01-01
+  categories: [pdf]
+- title: "Frais de Relevés Bancaires"
+  path: "pdfs/FRAIS_FISCHER.pdf"
+  filename: "FRAIS_FISCHER.pdf"
+  description: "frais pour relevé bancaire"
+  author: "Pierre Fischer"
+  date: 2020-01-01
+  categories: [pdf]    
