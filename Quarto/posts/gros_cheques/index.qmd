@@ -1,0 +1,22 @@
+---
+title: "Gros Chèques "
+author: "pjf"
+date: "2024-04-09"
+categories: [finance]
+---
+
+> l'identification des gros chèques
+
+```{r, dataset}
+library(cma)
+library(data.table)
+
+data <- mini_long_() |> nosolde_()  
+```
+
+```{r, exception}
+data_exception <- data |> exception_()
+data_exception |> 
+  dplyr::select(-dplyr::matches("dc")) |>
+  gt::gt()
+```

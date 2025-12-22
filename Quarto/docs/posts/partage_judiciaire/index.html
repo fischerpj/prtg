@@ -6,10 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Tristan O’Malley">
-<meta name="dcterms.date" content="2025-12-18">
+<meta name="author" content="pjf">
+<meta name="dcterms.date" content="2025-12-22">
 
-<title>Welcome To My Blog – Partage26</title>
+<title>Partage Judiciaire – Partage26</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -32,6 +32,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-listing/list.min.js"></script>
+<script src="../../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
@@ -69,7 +71,65 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-filename','listing-file-modified',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-filename-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-filename","listing-file-modified"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../../styles.css">
 </head>
@@ -116,9 +176,9 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Welcome To My Blog</h1>
+      <h1 class="title">Partage Judiciaire</h1>
                                 <div class="quarto-categories">
-                <div class="quarto-category">news</div>
+                <div class="quarto-category">legal</div>
               </div>
                   </div>
   </div>
@@ -129,14 +189,14 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">Author</div>
       <div class="quarto-title-meta-contents">
-               <p>Tristan O’Malley </p>
+               <p>pjf </p>
             </div>
     </div>
       
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">December 18, 2025</p>
+        <p class="date">December 22, 2025</p>
       </div>
     </div>
     
@@ -155,13 +215,252 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>This is the first post in a Quarto blog. Welcome!</p>
-<p><img src="thumbnail.jpg" class="img-fluid"></p>
-<p>Since this post doesn’t specify an explicit <code>image</code>, the first image in the post will be used in the listing page of posts.</p>
+<blockquote class="blockquote">
+<p>Tout sur la procédure et ses documents</p>
+</blockquote>
+<ul>
+<li><strong>K_saisine</strong> synthétise toute la requête ainsi que les arguments.</li>
+<li><strong>G_lotz_rapport</strong> tente en vain d’obtenir du notaire de la succession, le rapport des libéralités mises au jour.</li>
+<li><strong>H_lotz_technique</strong> chiffre par le menu la réunion fictive à 580K.</li>
+<li><strong>A_2_DONATION_FISCHER</strong> est le partage initial de 1986.</li>
+</ul>
 
 
 
-</main> <!-- /main -->
+
+<div class="quarto-listing quarto-listing-container-table" id="listing-listing">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+    <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+    <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+      <option value="" disabled="" selected="" hidden="">Order By</option>
+      <option value="index" data-direction="asc">Default</option>
+      <option value="listing-filename-sort" data-direction="asc">
+        File Name
+      </option>
+      <option value="listing-file-modified-sort" data-direction="asc">
+        Modified - Oldest
+      </option>
+      <option value="listing-file-modified-sort" data-direction="desc">
+        Modified - Newest
+      </option>
+    </select>
+  </div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
+<table class="quarto-listing-table table">
+<thead>
+<tr>
+
+<th>
+<a class="sort" data-sort="listing-filename-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">File Name</a>
+</th>
+
+<th>
+<a class="sort" data-sort="listing-file-modified-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Modified</a>
+</th>
+
+</tr>
+</thead>
+<tbody class="list">
+
+<tr data-index="0" data-listing-file-modified-sort="1766420930000" data-listing-filename-sort="A_2_DONATION_FISCHER_1986.pdf">
+<td>
+<a href="../../posts/partage_judiciaire/docs_haguenau/A_2_DONATION_FISCHER_1986.pdf" class="filename listing-filename">A_2_DONATION_FISCHER_1986.pdf</a>
+</td>
+<td>
+<span class="listing-file-modified">12/22/25, 4:28:50 PM</span>
+</td>
+
+</tr>
+
+<tr data-index="1" data-listing-file-modified-sort="1766420930000" data-listing-filename-sort="B_PROJET_AFFIRMATION SACRAMENTELLE FISCHER Aline née DURRENBERGER.pdf">
+<td>
+<a href="../../posts/partage_judiciaire/docs_haguenau/B_PROJET_AFFIRMATION SACRAMENTELLE FISCHER Aline née DURRENBERGER.pdf" class="filename listing-filename">B_PROJET_AFFIRMATION SACRAMENTELLE FISCHER Aline née DURRENBERGER.pdf</a>
+</td>
+<td>
+<span class="listing-file-modified">12/22/25, 4:28:50 PM</span>
+</td>
+
+</tr>
+
+<tr data-index="2" data-listing-file-modified-sort="1766420930000" data-listing-filename-sort="C_D_decompte_mulhouse.pdf">
+<td>
+<a href="../../posts/partage_judiciaire/docs_haguenau/C_D_decompte_mulhouse.pdf" class="filename listing-filename">C_D_decompte_mulhouse.pdf</a>
+</td>
+<td>
+<span class="listing-file-modified">12/22/25, 4:28:50 PM</span>
+</td>
+
+</tr>
+
+<tr data-index="3" data-listing-file-modified-sort="1766420930000" data-listing-filename-sort="D_1_DECES_epoux_FISCHER.pdf">
+<td>
+<a href="../../posts/partage_judiciaire/docs_haguenau/D_1_DECES_epoux_FISCHER.pdf" class="filename listing-filename">D_1_DECES_epoux_FISCHER.pdf</a>
+</td>
+<td>
+<span class="listing-file-modified">12/22/25, 4:28:50 PM</span>
+</td>
+
+</tr>
+
+<tr data-index="4" data-listing-file-modified-sort="1766420931000" data-listing-filename-sort="E_PROJET_DECLARATION SUCCESSION FISCHER Aline née DURRENBERGER.pdf">
+<td>
+<a href="../../posts/partage_judiciaire/docs_haguenau/E_PROJET_DECLARATION SUCCESSION FISCHER Aline née DURRENBERGER.pdf" class="filename listing-filename">E_PROJET_DECLARATION SUCCESSION FISCHER Aline née DURRENBERGER.pdf</a>
+</td>
+<td>
+<span class="listing-file-modified">12/22/25, 4:28:51 PM</span>
+</td>
+
+</tr>
+
+<tr data-index="5" data-listing-file-modified-sort="1766420937000" data-listing-filename-sort="F_lettre_rappel_signe.pdf">
+<td>
+<a href="../../posts/partage_judiciaire/docs_haguenau/F_lettre_rappel_signe.pdf" class="filename listing-filename">F_lettre_rappel_signe.pdf</a>
+</td>
+<td>
+<span class="listing-file-modified">12/22/25, 4:28:57 PM</span>
+</td>
+
+</tr>
+
+<tr data-index="6" data-listing-file-modified-sort="1766420937000" data-listing-filename-sort="G_lotz_rapport_signe.pdf">
+<td>
+<a href="../../posts/partage_judiciaire/docs_haguenau/G_lotz_rapport_signe.pdf" class="filename listing-filename">G_lotz_rapport_signe.pdf</a>
+</td>
+<td>
+<span class="listing-file-modified">12/22/25, 4:28:57 PM</span>
+</td>
+
+</tr>
+
+<tr data-index="7" data-listing-file-modified-sort="1766420939000" data-listing-filename-sort="H_lotz_technique-v0.99.pdf">
+<td>
+<a href="../../posts/partage_judiciaire/docs_haguenau/H_lotz_technique-v0.99.pdf" class="filename listing-filename">H_lotz_technique-v0.99.pdf</a>
+</td>
+<td>
+<span class="listing-file-modified">12/22/25, 4:28:59 PM</span>
+</td>
+
+</tr>
+
+<tr data-index="8" data-listing-file-modified-sort="1766420939000" data-listing-filename-sort="I_2024-10-11_declinaison_signée.pdf">
+<td>
+<a href="../../posts/partage_judiciaire/docs_haguenau/I_2024-10-11_declinaison_signée.pdf" class="filename listing-filename">I_2024-10-11_declinaison_signée.pdf</a>
+</td>
+<td>
+<span class="listing-file-modified">12/22/25, 4:28:59 PM</span>
+</td>
+
+</tr>
+
+<tr data-index="9" data-listing-file-modified-sort="1766420939000" data-listing-filename-sort="J_LETRECO_Depot_R5OK2POF_Successio-enberger.pdf">
+<td>
+<a href="../../posts/partage_judiciaire/docs_haguenau/J_LETRECO_Depot_R5OK2POF_Successio-enberger.pdf" class="filename listing-filename">J_LETRECO_Depot_R5OK2POF_Successio-enberger.pdf</a>
+</td>
+<td>
+<span class="listing-file-modified">12/22/25, 4:28:59 PM</span>
+</td>
+
+</tr>
+
+<tr data-index="10" data-listing-file-modified-sort="1766420939000" data-listing-filename-sort="K_saisine_haguenau.pdf">
+<td>
+<a href="../../posts/partage_judiciaire/docs_haguenau/K_saisine_haguenau.pdf" class="filename listing-filename">K_saisine_haguenau.pdf</a>
+</td>
+<td>
+<span class="listing-file-modified">12/22/25, 4:28:59 PM</span>
+</td>
+
+</tr>
+
+<tr data-index="11" data-listing-file-modified-sort="1766420939000" data-listing-filename-sort="L_AR_10Feb25_PDDNU_87001081691493.pdf">
+<td>
+<a href="../../posts/partage_judiciaire/docs_haguenau/L_AR_10Feb25_PDDNU_87001081691493.pdf" class="filename listing-filename">L_AR_10Feb25_PDDNU_87001081691493.pdf</a>
+</td>
+<td>
+<span class="listing-file-modified">12/22/25, 4:28:59 PM</span>
+</td>
+
+</tr>
+
+<tr data-index="12" data-listing-file-modified-sort="1766420939000" data-listing-filename-sort="M_preuve-dépot_PDDNU_87001081691493.pdf">
+<td>
+<a href="../../posts/partage_judiciaire/docs_haguenau/M_preuve-dépot_PDDNU_87001081691493.pdf" class="filename listing-filename">M_preuve-dépot_PDDNU_87001081691493.pdf</a>
+</td>
+<td>
+<span class="listing-file-modified">12/22/25, 4:28:59 PM</span>
+</td>
+
+</tr>
+
+<tr data-index="13" data-listing-file-modified-sort="1766420939000" data-listing-filename-sort="N_7-2025.pdf">
+<td>
+<a href="../../posts/partage_judiciaire/docs_haguenau/N_7-2025.pdf" class="filename listing-filename">N_7-2025.pdf</a>
+</td>
+<td>
+<span class="listing-file-modified">12/22/25, 4:28:59 PM</span>
+</td>
+
+</tr>
+
+<tr data-index="14" data-listing-file-modified-sort="1766420939000" data-listing-filename-sort="P_relance_haguenau.pdf">
+<td>
+<a href="../../posts/partage_judiciaire/docs_haguenau/P_relance_haguenau.pdf" class="filename listing-filename">P_relance_haguenau.pdf</a>
+</td>
+<td>
+<span class="listing-file-modified">12/22/25, 4:28:59 PM</span>
+</td>
+
+</tr>
+
+<tr data-index="15" data-listing-file-modified-sort="1766420939000" data-listing-filename-sort="Q_RELEVE_COMPTE_beb5d185-57b6-4cac-a2dc-5518d608702a.pdf">
+<td>
+<a href="../../posts/partage_judiciaire/docs_haguenau/Q_RELEVE_COMPTE_beb5d185-57b6-4cac-a2dc-5518d608702a.pdf" class="filename listing-filename">Q_RELEVE_COMPTE_beb5d185-57b6-4cac-a2dc-5518d608702a.pdf</a>
+</td>
+<td>
+<span class="listing-file-modified">12/22/25, 4:28:59 PM</span>
+</td>
+
+</tr>
+
+<tr data-index="16" data-listing-file-modified-sort="1766420937000" data-listing-filename-sort="fromN_ORDONNANCE_20mar2025.pdf">
+<td>
+<a href="../../posts/partage_judiciaire/docs_haguenau/fromN_ORDONNANCE_20mar2025.pdf" class="filename listing-filename">fromN_ORDONNANCE_20mar2025.pdf</a>
+</td>
+<td>
+<span class="listing-file-modified">12/22/25, 4:28:57 PM</span>
+</td>
+
+</tr>
+
+<tr data-index="17" data-listing-file-modified-sort="1766420937000" data-listing-filename-sort="fromO_NOTIFICATION_27mar2025.pdf">
+<td>
+<a href="../../posts/partage_judiciaire/docs_haguenau/fromO_NOTIFICATION_27mar2025.pdf" class="filename listing-filename">fromO_NOTIFICATION_27mar2025.pdf</a>
+</td>
+<td>
+<span class="listing-file-modified">12/22/25, 4:28:57 PM</span>
+</td>
+
+</tr>
+
+<tr data-index="18" data-listing-file-modified-sort="1766420937000" data-listing-filename-sort="fromR_7-2025.pdf">
+<td>
+<a href="../../posts/partage_judiciaire/docs_haguenau/fromR_7-2025.pdf" class="filename listing-filename">fromR_7-2025.pdf</a>
+</td>
+<td>
+<span class="listing-file-modified">12/22/25, 4:28:57 PM</span>
+</td>
+
+</tr>
+
+</tbody>
+</table>
+<div class="listing-no-matching d-none">No matching items</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

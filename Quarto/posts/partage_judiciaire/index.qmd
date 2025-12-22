@@ -1,0 +1,17 @@
+---
+title: "Partage Judiciaire"
+author: "pjf"
+date: "2025-12-22"
+categories: [legal]
+listing:
+  type: table
+  contents:
+    - "docs_haguenau/*.pdf"
+---
+
+> Tout sur la procédure et ses documents
+
+- **K_saisine** synthétise toute la requête ainsi que les arguments.
+- **G_lotz_rapport** tente en vain d'obtenir du notaire de la succession, le rapport des libéralités mises au jour. 
+- **H_lotz_technique** chiffre par le menu la réunion fictive à 580K.
+- **A_2_DONATION_FISCHER** est le partage initial de 1986.

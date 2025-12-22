@@ -6,4 +6,6 @@ README.md for "partg"
 - DATA is cma::
 - 2552 PUSHUP GH
 
-in Quarto: quarto render 
+in Quarto: quarto render
+- Copy Files Into scp -r C:\_myHUL\_MERTZ_legacy\PARTAGE_JUDICIAIRE\TRIBUNAL_HAGUENAU\docs_haguenau pepo@192.168.8.133:/home/pepo
+- THEN docker cp docs_haguenau nucVerse:/home/rstudio/EXT

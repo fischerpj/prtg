@@ -4,12 +4,18 @@
     "items": []
   },
   {
+    "listing": "/posts/partage_judiciaire/index.html",
+    "items": []
+  },
+  {
     "listing": "/index.html",
     "items": [
+      "/posts/partage_judiciaire/index.html",
       "/posts/post-with-code/index.html",
       "/posts/where/index.html",
       "/posts/pdf_collection/index.html",
       "/posts/welcome/index.html",
+      "/posts/gros_cheques/index.html",
       "/posts/cma_exceptions/index.html"
     ]
   }
