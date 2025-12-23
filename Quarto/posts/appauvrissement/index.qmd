@@ -5,8 +5,8 @@ date: "2025-12-23"
 categories: [finance]
 ---
 
-> **l'appauvrissement** du *de cujus* par une volonté de gestion déficitaire persistante est établi par l'analyse des données financières, ce qui fait ressortir comme libéralité tout transfert de richesse, par ailleurs éminemment inégalitaire.
+> **l'appauvrissement** en capital *in-fine* est manifeste au profit d'une conversion en valeurs immobilières, fiscalement neutre. Mais ces investissements trop tardifs apparaissent comme des donations déguisées, au demeurant structurellement inégalitaires.
 
 ![cf lotz_technique \$4](analyse_du_deficit.png){width="600"}
 
-*on Windows: scp -r C:\_myHUL_VOL*\RS*\_ext*\lotz*\_scribe*\TFR *pepo\@192.168.8.133:/home/pepo in NUC: docker cp TFR nucVerse:/home/rstudio/EXT*
+*on Windows: scp -r C:\_myHUL_VOL*\RS*\_ext\lotz*\_scribe\TFR *pepo\@192.168.8.133:/home/pepo in NUC: docker cp TFR nucVerse:/home/rstudio/EXT\*

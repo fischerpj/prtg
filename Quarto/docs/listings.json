@@ -11,11 +11,10 @@
     "listing": "/index.html",
     "items": [
       "/posts/hebergement/index.html",
+      "/posts/appauvrissement/index.html",
       "/posts/partage_judiciaire/index.html",
-      "/posts/post-with-code/index.html",
       "/posts/where/index.html",
       "/posts/pdf_collection/index.html",
-      "/posts/welcome/index.html",
       "/posts/gros_cheques/index.html",
       "/posts/cma_exceptions/index.html"
     ]
