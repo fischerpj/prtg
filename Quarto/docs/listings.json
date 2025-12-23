@@ -10,6 +10,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/hebergement/index.html",
       "/posts/partage_judiciaire/index.html",
       "/posts/post-with-code/index.html",
       "/posts/where/index.html",
