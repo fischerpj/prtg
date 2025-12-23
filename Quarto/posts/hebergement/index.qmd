@@ -7,6 +7,14 @@ categories: [finance]
 
 > retenir 35 années d'hébergement gratuit sans participation comme une libéralité
 
+synthèse:
+- la **mise à disposition gratuite d’un logement** peut être considérée soit comme une aide familiale, soit comme une donation indirecte, en tant qu'avantage en nature (fruits du bien / usufruit).
+- il s'agirait d'une simple aide familiale, dans la continuité des obligations parentales (CE QUI N'EST PAS LE CAS) ou d’un soutien normal entre proches. La charge de réciprocité n'est pas équilibrée non plus vu la longue durée de l'avantage et la longévité de santé des parents. 
+- la volonté et la matérialité de l'avantage ressort de **l'absence de contreparties** 
+- l'intention libérale
+- l'avantage économique est massif et maximal pour le logement, principal poste de dépense.
+- une disproportion par rapport à une aide familiale normale, non permanente
+- une inégalité non compensée par rapport aux autres héritiers.
 
 Voici une réponse claire, structurée et appuyée sur les informations issues des recherches que j’ai effectuées.
 
@@ -26,7 +34,7 @@ La jurisprudence a beaucoup évolué, et tout dépend des circonstances concrèt
 📌 1. Ce que disent les textes et la jurisprudence
 
 ✔️ Le principe
-Depuis plusieurs décisions importantes, la mise à disposition gratuite d’un logement peut être considérée comme une donation indirecte, car elle constitue un avantage en nature (fruits du bien).
+Depuis plusieurs décisions importantes, la **mise à disposition gratuite d’un logement peut être considérée comme une donation indirecte, car elle constitue un avantage en nature (fruits du bien)**.
 
 L’article 851 du Code civil prévoit que les fruits et revenus donnés sont rapportables.
 
