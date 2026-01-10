@@ -1,0 +1,332 @@
+---
+title: "usufruit perdu"
+author: "pjf"
+date: "2025-12-20"
+description: "par adjudiciation forcée"
+categories: [3_arguments]
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+> la part donnée en 1986 à Pierre F est un **immeuble** en indivision
+> lequel est vendu par adjudication forcée en 2011. Il en résulte un
+> perte de 74 K€ d'usufruit et 15K€de plus-value, ce qui rompt la
+> promesse irrévocable de donner.
+
+### les faits
+
+-   la donation-partage alloue un **bien en indivision** à Pierre F. Or
+    la jurisprudence récente est sévère sur les donations‑partages mal
+    structurées, notamment lorsqu’elles incluent des biens indivis avec
+    des tiers, ce qui engage la responsabilité professionnelle de Me
+    Lotz pour ne pas avoir averti du risque majeur que représentent le
+    partage judiciaire possible, l'extinction anticipée de l’usufruit et
+    la perte de valeur, ni avoir prévu de mécanisme de sauvegarde.
+-   le risque inévitable se réalise donc par une adjudication forcée en
+    2011 qui éteint l'usufruit à hauteur de 25% soit 74K€ au profit du
+    donateur et au détriment de Pierre F. sans aucune faute de ce
+    dernier, ni de recours possible à récupérer légalement cette perte,
+    à moins d**'un rééquilibrage** lors du réglement de succession.
+-   Il convient de noter dès l'origine, la distortion de la donation et
+    l'impossibilité quasi-certaine de ne pouvoir honorer au décès, la
+    donation de l'usufruit réuni à la nue-propriété , ce qui justifie
+    une **révision de la donation**.
+
+### l'argumentation
+
+👉 une donation-partage est censée **figer définitivement les droits**
+transmis. Or la perte d’usufruit par adjudication est un événement
+postérieur qui créé un déséquilibre dans l’équilibre initial de la
+donation-partage.
+
+------------------------------------------------------------------------
+
+🎯 A. Argument sur l'**atteinte à l’équilibre initial** de la
+donation-partage
+
+Une donation-partage :
+
+-   Fige les valeurs et les droits au jour de l’acte.
+-   Suppose un équilibre entre les lots.
+-   Ne prévoit pas que l’un des donataires subisse une diminution forcée
+    de droits par un événement extérieur.
+
+👉 Argument : la perte de 25 % d’usufruit constitue une atteinte à
+l’équilibre initial, ce qui justifie **une réévaluation ou une
+compensation**.
+
+------------------------------------------------------------------------
+
+🎯 B. Argument sur la perte de valeur patrimoniale
+
+La perte d’usufruit réduit au final la valeur économique du lot.
+
+👉 Argument : la diminution objective de valeur, mesurée lors du
+réglement de l'adjudication, justifie **une compensation ou une
+révision**.
+
+------------------------------------------------------------------------
+
+🎯 C. Argument sur la **distorsion des droits indivis**
+
+Dans une indivision :
+
+-   Toute modification d’un droit indivis affecte l’équilibre entre
+    indivisaires.
+-   La perte d’usufruit peut créer une **distorsion dans les droits
+    réels** entre toi et le tiers.
+
+👉 Argument : la situation crée une **indivision déséquilibrée**,
+contraire à l’esprit de la donation-partage.
+
+------------------------------------------------------------------------
+
+🎯 D. Argument sur **la cause de la perte**
+
+Si la perte de l’usufruit résulte :
+
+-   d’une procédure où tu n’es pas fautif,
+-   d’une adjudication liée à un tiers,
+-   d’un événement extérieur à ta volonté,
+
+👉 Argument : tu ne peux **pas être pénalisé** pour un événement non
+imputable à ton comportement.
+
+### Actions possibles
+
+demander selon le cas
+
+✔️ Une **compensation financière** Basée sur la valeur économique de
+l’usufruit perdu (barème fiscal ou expertise).
+
+✔️ Une **révision de la donation-partage** puisque l’équilibre initial
+est rompu et requalification
+
+✔️ Une **action en garantie** Si un notaire est responsable de la perte.
+
+### Avis de l'expert
+
+🟥 1. Ce que change (et ne change pas) le décès de l’usufruitière
+
+✔️ Ce que ça change - L’usufruit s’éteint automatiquement au décès (art.
+617 C. civ.).\
+- Tu deviens plein propriétaire de ce qui te restait en nue‑propriété.
+
+❌ Ce que ça ne change pas - La perte économique de l’usufruit lors du
+partage judiciaire reste définitive.\
+- Le décès ne crée pas une créance ou un droit à compensation.\
+- Il n’existe aucun mécanisme légal permettant de “réintégrer” la valeur
+d’un usufruit disparu avant le décès.
+
+👉 En clair : le décès ne réactive pas un droit que tu aurais perdu.
+
+------------------------------------------------------------------------
+
+🟥 2. Pourquoi tu ne peux pas récupérer la valeur perdue
+
+Lors du partage judiciaire provoqué par le tiers :
+
+-   L’immeuble a été vendu ou attribué sans maintien de l’usufruit.\
+-   L’usufruit de ta mère s’est éteint par l’effet du partage, pas par
+    son décès.\
+-   La valeur économique de cet usufruit a disparu à ce moment‑là, et
+    non au décès.
+
+Le décès n’a donc aucun effet rétroactif permettant de reconstituer
+cette valeur.
+
+------------------------------------------------------------------------
+
+🟥 3. Les seules voies encore ouvertes
+
+✔️ 1. Action en responsabilité contre le notaire (la seule voie
+juridique réelle) C’est la seule piste encore ouverte après le décès.
+
+Elle peut être fondée si :
+
+-   Le notaire a intégré dans la donation‑partage un bien en indivision
+    avec un tiers,\
+-   Sans t’avertir du risque majeur :
+    -   partage judiciaire possible,\
+    -   extinction anticipée de l’usufruit,\
+    -   perte de valeur pour toi.
+
+La jurisprudence récente est sévère sur les donations‑partages mal
+structurées, notamment lorsqu’elles incluent des biens indivis avec des
+tiers.
+
+👉 Si le notaire n’a pas sécurisé l’opération ou n’a pas informé
+clairement, une faute professionnelle peut être caractérisée.
+
+Et là, tu peux demander réparation de la perte économique.
+
+------------------------------------------------------------------------
+
+✔️ 2. Rééquilibrage successoral interne (si d’autres héritiers existent)
+Même si ta mère est décédée, il reste parfois :
+
+-   des biens dans sa succession,\
+-   des héritiers (toi, frères/sœurs),\
+-   des marges de manœuvre dans le partage.
+
+On peut alors rééquilibrer pour compenser la perte.
+
+------------------------------------------------------------------------
+
+✔️ 3. Rien d’autre n’est juridiquement possible Il n’existe :
+
+-   ni créance de restitution,\
+-   ni quasi‑usufruit,\
+-   ni indemnité automatique,\
+-   ni droit à compensation contre le tiers ou contre la succession.
+
+------------------------------------------------------------------------
+
+🟥 4. Ce que je te propose maintenant
+
+Pour avancer efficacement, il faut :
+
+🔍 Étape 1 — Relire l’acte de donation‑partage Je peux t’aider à
+analyser :
+
+-   la structure de l’acte,\
+-   les avertissements donnés (ou non) par le notaire,\
+-   les clauses de garantie,\
+-   les risques non signalés.
+
+🧮 Étape 2 — Chiffrer la perte exacte Je peux te faire un calcul précis
+basé sur :
+
+-   l’âge de ta mère au moment du partage judiciaire,\
+-   la valeur du bien,\
+-   la quote‑part concernée.
+
+⚖️ Étape 3 — Évaluer la responsabilité notariale C’est la seule voie qui
+peut réellement te permettre de récupérer quelque chose.
+
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+
+🧩 1. Le cœur du problème Tu décris une situation où :
+
+-   Tu as reçu en donation-partage un immeuble en indivision avec un
+    tiers.
+-   Tu avais l’usufruit sur ta quote-part.
+-   Une adjudication judiciaire t’a fait perdre 25 % de cet usufruit.
+
+👉 Le point central : une donation-partage est censée figer
+définitivement les droits transmis, sauf événements exceptionnels.\
+La perte d’usufruit par adjudication est un événement postérieur qui
+peut créer un déséquilibre dans l’équilibre initial de la
+donation-partage.
+
+------------------------------------------------------------------------
+
+🧱 2. Les axes d’argumentation possibles
+
+🎯 A. Argument sur la nature de la donation-partage
+
+Une donation-partage :
+
+-   Fige les valeurs et les droits au jour de l’acte.
+-   Suppose un équilibre entre les lots.
+-   Ne prévoit pas que l’un des donataires subisse une diminution forcée
+    de droits par un événement extérieur.
+
+👉 Argument : la perte de 25 % d’usufruit constitue une **rupture de
+l’équilibre initial de la donation-partage**, ce qui justifie une
+réévaluation ou une compensation.
+
+------------------------------------------------------------------------
+
+🎯 B. Argument sur la perte de valeur patrimoniale La perte d’usufruit :
+
+-   Réduit la valeur économique de ton lot.
+-   Réduit ton droit d’usage et de jouissance.
+-   Peut réduire tes revenus (si location).
+-   Peut augmenter tes charges (si l’usufruitier reste tenu de certaines
+    obligations).
+
+👉 Argument : fais subir une **perte de valeur patrimoniale** dont la
+valeur est connue, ce qui justifie une compensation ou une révision.
+
+------------------------------------------------------------------------
+
+🎯 C. Argument sur la **distorsion des droits indivis**
+
+Dans une indivision :
+
+-   Toute modification d’un droit indivis affecte l’équilibre entre
+    indivisaires.
+-   La perte d’usufruit peut créer une distorsion dans les droits réels
+    entre toi et le tiers.
+
+👉 Argument : la situation crée une indivision déséquilibrée, contraire
+à l’esprit de la donation-partage.
+
+------------------------------------------------------------------------
+
+🎯 D. Argument sur la cause de la perte
+
+Si la perte de l’usufruit résulte :
+
+-   d’une procédure où tu n’es pas fautif,
+-   d’une adjudication liée à un tiers,
+-   d’un événement extérieur à ta volonté,
+
+👉 Argument : tu ne peux **pas être pénalisé** pour un événement non
+imputable à ton comportement.
+
+------------------------------------------------------------------------
+
+🧮 3. Ce que tu peux demander Selon le contexte exact (que tu peux
+préciser si tu veux), tu peux argumenter pour :
+
+✔️ Une compensation financière Basée sur la valeur économique de
+l’usufruit perdu (barème fiscal ou expertise).
+
+✔️ Une révision de la donation-partage Si l’équilibre initial est rompu.
+
+✔️ Une réévaluation des droits indivis Pour rétablir une équité entre
+indivisaires.
+
+✔️ Une action en garantie Si un tiers est responsable de la perte.
+
+------------------------------------------------------------------------
+
+🧠 4. Comment présenter cela au notaire ou au juge Voici une structure
+simple, claire et percutante :
+
+1.  Rappeler les faits
+
+-   Donation-partage\
+-   Indivision\
+-   Usufruit initial\
+-   Perte de 25 % par adjudication
+
+2.  Expliquer la conséquence juridique
+
+-   Rupture de l’équilibre de la donation-partage\
+-   Perte de valeur patrimoniale\
+-   Distorsion des droits indivis
+
+3.  Expliquer la conséquence économique
+
+-   Diminution mesurable de la valeur\
+-   Perte de jouissance ou de revenus
+
+4.  Souligner l’absence de faute
+
+-   Événement extérieur\
+-   Non imputable
+
+5.  Formuler la demande
+
+-   Compensation\
+-   Révision\
+-   Expertise\
+-   Rééquilibrage
+
+------------------------------------------------------------------------

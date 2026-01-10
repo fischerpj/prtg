@@ -1,8 +1,9 @@
 ---
-title: "Where are the Docs?"
+title: "Doc Storage"
 author: "pjf"
 date: "2025-12-20"
-categories: [finance]
+description: "les emplacements de stockage des documents"
+categories: [docs]
 ---
 
 ```{r DOCS}

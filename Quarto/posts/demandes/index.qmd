@@ -2,7 +2,8 @@
 title: "les demandes"
 author: "pjf"
 date: "2025-12-20"
-categories: [finance]
+description: "à l'initiative de Pierre F. requérant"
+categories: [5_demandes]
 ---
 
 Si la donation-partage de 1986 était voulue égalitaire en son temps, je soussigné Pierre F. demande la réévaluation de la situation au moment du décès par la double prise en considération a) du “quasi-usufruit” perdu et b) du rapport des libéralités dûment étayé. 

@@ -1,0 +1,15 @@
+---
+title: "répartition"
+author: "pjf"
+date: "2025-12-20"
+description: "tableau de partage après la réunion fictive"
+categories: [5_demandes]
+---
+
+![](formule.png)
+
+### Alternatives
+
+- Si Donation est réputée incorrecte, il faut la reqalifier
+- Si Donation est correcte, alors la maison est à ajouter
+- Si pas d'accord, alors le juge sera saisi avec les arguments avancés.

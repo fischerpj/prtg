@@ -2,7 +2,8 @@
 title: "les diligences"
 author: "pjf"
 date: "2025-12-20"
-categories: [finance]
+description: "défaut d'accord malgré les efforts déployés"
+categories: [1_contexte]
 ---
 
 - la **lettre_rappel_signe.pdf** résume l’histoire des diligences, restées vaines du 15 nov 2023 et 22 juin 2024 alors que le dernier échange de juin 2024, n’a reçu de Me Lotz qu’une fin de non-recevoir, actée en retour par ma lettre 2024-10-11_declinaison_signée.pdf qui met fin à trois années d’effort amiable.

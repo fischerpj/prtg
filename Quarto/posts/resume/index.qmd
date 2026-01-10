@@ -1,0 +1,10 @@
+---
+title: "résumé"
+author: "pjf"
+date: "2025-12-20"
+description: "les emplacements de stockage des documents"
+categories: [1_contexte]
+editor: 
+  markdown: 
+    wrap: 72
+---

@@ -1,14 +1,13 @@
 ---
-title: "QW"
+title: "TOC of Blog2"
+author: "pjf"
+date: "2026-01-02"
+categories: []
 listing:
-  contents: posts
-  sort: "date desc"
-  type: default
+  type: table
+  contents: posts2
+  fields: [title, description]  
   categories: true
-  sort-ui: false
-  filter-ui: false
-page-layout: full
-title-block-banner: true
 ---
 
 

@@ -1,28 +1,47 @@
 [
   {
-    "listing": "/posts/pdf_collection/index.html",
-    "items": []
-  },
-  {
-    "listing": "/posts/partage_judiciaire/index.html",
+    "listing": "/posts2/Docs_SCHOTT_12Jan26/index.html",
     "items": []
   },
   {
     "listing": "/index.html",
     "items": [
-      "/posts/hebergement/index.html",
-      "/posts/appauvrissement/index.html",
-      "/posts/partage_judiciaire/index.html",
+      "/posts2/Docs_TRPX_Haguenau/index.html",
+      "/posts2/gros_cheques/index.html",
+      "/posts2/gros_travaux/index.html",
+      "/posts2/méthodologie/index.html",
+      "/posts2/pdf_collection/index.html",
+      "/posts2/Docs_SCHOTT_12Jan26/index.html",
+      "/posts2/non_recours/index.html",
+      "/posts2/1_hebergement/index.html",
+      "/posts2/appauvrissement/index.html",
+      "/posts2/3_travaux/index.html",
+      "/posts2/2_maison_postérieure/index.html",
+      "/posts2/formule/index.html",
+      "/posts2/4_usufruit_perdu/index.html",
+      "/posts2/valeur_maison/index.html"
+    ]
+  },
+  {
+    "listing": "/index_legacy.html",
+    "items": [
       "/posts/contexte/index.html",
-      "/posts/parties/index.html",
-      "/posts/motifs/index.html",
       "/posts/diligences/index.html",
-      "/posts/demandes/index.html",
-      "/posts/formule/index.html",
+      "/posts/overview/index.html",
       "/posts/where/index.html",
-      "/posts/pdf_collection/index.html",
-      "/posts/gros_cheques/index.html",
+      "/posts/resume/index.html",
+      "/posts/motifs/index.html",
+      "/posts/demandes/index.html",
+      "/posts/parties/index.html",
       "/posts/cma_exceptions/index.html"
     ]
+  },
+  {
+    "listing": "/posts2/Docs_TRPX_Haguenau/index.html",
+    "items": []
+  },
+  {
+    "listing": "/posts2/pdf_collection/index.html",
+    "items": []
   }
 ]

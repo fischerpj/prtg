@@ -1,7 +1,0 @@
----
-title: "la formule"
-author: "pjf"
-date: "2025-12-20"
-categories: [finance]
----
-

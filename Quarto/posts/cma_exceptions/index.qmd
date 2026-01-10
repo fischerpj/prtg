@@ -2,7 +2,8 @@
 title: "CMA Exceptions "
 author: "pjf"
 date: "2024-04-09"
-categories: [finance]
+description: "tous les mouvements dans le sillage de la Vente Zanette"
+categories: [2_analyse]
 ---
 
 CMA exceptions are outbound accounting movement of cash, not compensated by the gain of goods or services or charges.

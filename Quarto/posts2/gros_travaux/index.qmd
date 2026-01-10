@@ -1,0 +1,15 @@
+---
+title: "Histoire des Travaux "
+author: "pjf"
+date: "2024-04-09"
+description: "analyse temporelle"
+categories: [2_analyse]
+---
+
+> Selon Lotz_Technique les gtravaux s'accèlèrent et s'amplifient en fin de vie, pour un avantage clairement transféré aux soeurs.
+
+![](gros_travaux.png)
+
+### nature et destination des gros travaux
+
+![](images/travaux.png)

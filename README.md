@@ -1,5 +1,6 @@
 README.md for "partg"
 
+- 2601 Resume Dell
 - 2552 pushup
 
 - First create_package, create inst/shiny/apps with golem or RS_menu, create ./Quarto
