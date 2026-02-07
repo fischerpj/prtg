@@ -1,0 +1,116 @@
+# réunion Lotz_technique
+
+> Nous reprenons en A) _verbatim_ la réunion fictive avancée par le document _Lotz_technique_ que nous corrigeons avec B) l'hypothèse de la pré-existence de la maison rue d'Eschbach. NB. ces propositions sont faites **sans restitution préalable** d'usufruit mais avec le rapport des libéralités dûment évaluées, ce que la **jurisprudence soutient solidement**.
+
+### solution A
+
+Reprenant les valeurs établies précédemment pour les donations déguisées accordées depuis 1986, il reste 129 K€ d'avoir en banque auxquels s'ajoutent le débours de 41 K€ pour Marguerite B. et 46 K€ pour Michèle F. nécessaire pour assurer le versement de 74 K€ à Aline S. et 142 K€ à Pierre F.
+
+NB. Nous avons dans ce calcul, réduit le loyer de 180 à 160 K€ (-11% de 35 années honorera l'assistance fournie à notre mère) et similairement la valeur de la maison de 180 à 160 K€ puisque la valeur du terrain nu est déjà contenue dans la donation-partage d'origine. Pierre F. rapporte quant à lui 2340 € comme attesté par la note de la défunte.
+
+Ce tableau apporte la preuve indiscutable des **libéralités déguisées**, presqu'exclusivement en gros travaux et hébergement gratuit soulignant l'iniquité flagrante dans le traitement discriminatoire des héritiers. Nul ne pourra donc soutenir l'immatérialité d'un flux se montant à **580 K€**.
+
+
+```{r, REUNION_data, echo= FALSE}
+data <- tibble::tribble(
+      ~beneficiaire, ~deja_recu, ~nature,
+      "aline", -71, "travaux",
+      "pierre", -2.34, "don",
+      "michèle", -160, "loyer",
+      "michèle", -30, "mobilier",
+      "michèle", -1.5, "travaux",
+      "marguerite", -27, "travaux",
+      "marguerite", -160, "maison",
+      "cash", 129, "banque"
+) |>
+  dplyr::summarise(deja_recu = sum(deja_recu), .by = tidyr::matches("beneficiaire|nature")) |>
+  tibble::rowid_to_column("id") |>
+  dplyr::add_count(beneficiaire) |>
+  dplyr::mutate(reunion = sum(abs(deja_recu)),
+                quotepart = dplyr::case_when(!beneficiaire == "cash"~ reunion/(4*n),
+                                             TRUE~0),
+                a_recevoir= quotepart+deja_recu)
+```
+
+```{r, REUNION_gt, echo= FALSE}
+bene <- data$beneficiaire |> unique() 
+bene <- bene[!bene %in% c('cash')]
+
+data |>
+  dplyr::select(-dplyr::matches("^id$|^n$|^reunion")) |>
+  dplyr::filter(beneficiaire != "cash") |>
+  gt::gt(groupname_col = "beneficiaire")  |>
+   gt::summary_rows(
+    groups = bene,
+    columns = c("deja_recu","a_recevoir","quotepart"),
+    fns = list(
+      total = ~sum(., na.rm = TRUE)
+    ),
+    side= "top"
+  ) |>
+  gt::grand_summary_rows(
+    columns = c("deja_recu","a_recevoir","quotepart"),
+    fns = list(
+      reunion = ~sum(., na.rm = TRUE)
+    ),
+    side= "top"
+    ) |>
+  gt::fmt_number(decimals=1) |>
+  gt::tab_header("A) lotz_technique verbatim: scenario 1 sans restitution d'usufruit")
+
+```
+
+### solution B
+
+ne fait qu'annuler la valeur de la maison rue d'Eschbach dans l'hypothèse de son antériorité à la date de la donation-partage. NB. il est attendu que la **jurisprudence** soutiendra solidement tout l'argumentaire pour le rapport de ces libéralités déguisées, renforcé par le caractère **systémiquement inégalitaire.**  
+
+Les valeurs reçues sont pour Aline 34 K€, Marguerite 78 K€, Pierre 102 K€, Michèle -86 K€.
+
+```{r, REUNION_data_rev1, echo= FALSE}
+data <- tibble::tribble(
+      ~beneficiaire, ~deja_recu, ~nature,
+      "aline", -71, "travaux",
+      "pierre", -2.34, "don",
+      "michèle", -160, "loyer",
+      "michèle", -30, "mobilier",
+      "michèle", -1.5, "travaux",
+      "marguerite", -27, "travaux",
+      "marguerite", -0*160, "maison",
+      "cash", 129, "banque"
+) |>
+  dplyr::summarise(deja_recu = sum(deja_recu), .by = tidyr::matches("beneficiaire|nature")) |>
+  tibble::rowid_to_column("id") |>
+  dplyr::add_count(beneficiaire) |>
+  dplyr::mutate(reunion = sum(abs(deja_recu)),
+                quotepart = dplyr::case_when(!beneficiaire == "cash"~ reunion/(4*n),
+                                             TRUE~0),
+                a_recevoir= quotepart+deja_recu)
+```
+
+```{r, REUNION_gt_rev1, echo= FALSE}
+bene <- data$beneficiaire |> unique() 
+bene <- bene[!bene %in% c('cash')]
+
+data |>
+  dplyr::select(-dplyr::matches("^id$|^n$|^reunion")) |>
+  dplyr::filter(beneficiaire != "cash") |>
+  gt::gt(groupname_col = "beneficiaire")  |>
+   gt::summary_rows(
+    groups = bene,
+    columns = c("deja_recu","a_recevoir","quotepart"),
+    fns = list(
+      total = ~sum(., na.rm = TRUE)
+    ),
+    side= "top"
+  ) |>
+  gt::grand_summary_rows(
+    columns = c("deja_recu","a_recevoir","quotepart"),
+    fns = list(
+      reunion = ~sum(., na.rm = TRUE)
+    ),
+    side= "top"
+    ) |>
+  gt::fmt_number(decimals=1) |>
+  gt::tab_header("B) lotz_technique: scenario 1_REVISE sans restitution d'usufruit")
+
+```

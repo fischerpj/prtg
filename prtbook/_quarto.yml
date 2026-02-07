@@ -1,0 +1,34 @@
+project:
+  type: book
+  
+execute:
+  echo: false  
+
+book:
+  title: "partage26"
+  author: "Pierre Fischer"
+  date: "1/12/2026"
+  chapters:
+    - index.qmd
+    - 1_hebergement/index.qmd
+    - 2_maison_postérieure/index.qmd
+    - 3_travaux/index.qmd
+    - 4_usufruit_perdu/index.qmd
+    - appauvrissement/index.qmd
+    - formule/index.qmd
+    - gros_cheques/index.qmd
+    - gros_travaux/index.qmd
+    - méthodologie/index.qmd
+    - non_recours/index.qmd
+    - valeur_maison/index.qmd
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+  pdf:
+    documentclass: scrreprt
+
+
+

@@ -1,0 +1,156 @@
+---
+title: "les travaux "
+author: "pjf"
+date: "2024-04-09"
+description: "à rapporter comme libéralités"
+categories: [3_arguments]
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+### 📌 l'essentiel de la démonstration
+
+Pour établir que des **gros travaux financés en fin de vie** par
+l’usufruitière constituent une **libéralité déguisée**, il faut
+démontrer un **appauvrissement volontaire** de l’usufruitière au profit
+du nu‑propriétaire, accompagné d’une **intention libérale**. \_La
+jurisprudence récente (Cass. 23 oct. 2024) confirme que même des travaux
+légalement à la charge de l’usufruitier peuvent être requalifiés en
+donation indirecte lorsqu'ils **valorisent fortement le bien**, restent
+**sans contrepartie** (les nu-propriétaires n'ont rien payé et en
+profitent exclusivement), excède la normale par leur **ampleur et leur
+exécution en** fin de vie.
+
+La **libéralité déguisée** est établie par l'ensemble des factures
+prises à sa charge, la commande des travaux juste avant son décès alors
+qu'elle n'en tirera plus profit, que l’absence d’intérêt pour l’usufruitière est manifestée par des loyers inchangés, la valorisation évidente des biens et
+le résultat démontré de son appauvrissement ainsi que la volonté
+sélective de favoriser certaines au détriment du dernier, sans autre
+compensation.
+
+**L'appauvrissement est certain** de l’usufruitière. car il est démontré que
+
+:   -   les travaux ont été payés par elle,\
+    -   ils ont été réalisés peu avant son décès,\
+    -   ils ont augmenté la valeur du bien au profit du nu‑propriétaire.
+> Conclusion : pour toutes ces raisons les travaux identifiés à hauteur
+> de 104 K€ sont considérés comme des donations indirectes / libéralité
+> déguisée, rapportable à la succession.
+
+<!--
+### Avis de l'expert
+
+1.  Le cadre juridique : ce que dit la jurisprudence récente Les
+    décisions de 2024–2025 sont très explicites :
+
+🔹 Cass. 1re civ., 23 octobre 2024 (n° 22‑20.879) - Les travaux
+d’amélioration financés par l’usufruitier peuvent constituer une
+libéralité rapportable, même s’ils sont normalement à sa charge.\
+- La Cour retient qu’il y a libéralité si l’usufruitier finance des
+travaux **valorisant fortement** le bien, **sans contrepartie,** dans
+une **intention libérale**.
+
+🔹 Jurisprudence commentée (Le Revenu, 2025) - Les dépenses de
+l’usufruitier peuvent être qualifiées de libéralité si elles dépassent
+ses obligations légales ou si elles révèlent une intention de gratifier
+le nu‑propriétaire.
+
+🔹 Analyse doctrinale (AUREP, 2025) - Les travaux réalisés par
+l’usufruitier peuvent être qualifiés de donation indirecte lorsque leur
+**ampleur ou leur nature excède ce qui est normalement attendu.**
+
+------------------------------------------------------------------------
+
+2.  Les critères à démontrer pour établir la libéralité déguisée
+
+A. Un **appauvrissement certain** de l’usufruitière Il faut montrer que
+
+:   -   les travaux ont été payés par elle,\
+    -   ils ont été réalisés peu avant son décès,\
+    -   ils ont augmenté la valeur du bien au profit du nu‑propriétaire.
+
+👉 Les travaux de type toiture, murs porteurs, pignons, gros œuvre sont
+typiquement des gros travaux relevant du nu‑propriétaire (art. 606 C.
+civ.), donc hors de la charge normale de l’usufruitier.
+
+La jurisprudence de 2024 cite précisément ce type de travaux (toiture,
+pignon, portail, mur) comme relevant du nu‑propriétaire.
+
+B. Un enrichissement corrélatif du nu‑propriétaire
+
+À démontrer : - la valeur du bien a augmenté, le nu‑propriétaire n’a
+rien payé, il récupère un bien amélioré au décès, donc sans
+contrepartie.
+
+C. L’intention libérale C’est l’élément clé.
+
+Elle peut être déduite de circonstances telles que : - âge avancé de
+l’usufruitière,\
+- **absence d’intérêt personnel à long terme** (travaux réalisés alors
+qu’elle n’en profitera presque pas),\
+- caractère disproportionné des dépenses par rapport à ses besoins,\
+- volonté manifeste d’avantager un héritier plutôt qu’un autre.
+
+La jurisprudence admet que l’intention libérale peut être présumée
+lorsque les travaux : - excèdent les obligations légales,\
+- sont réalisés en fin de vie,\
+- profitent exclusivement au nu‑propriétaire.
+
+------------------------------------------------------------------------
+
+3.  Les preuves à réunir pour convaincre un juge
+
+🔹 1. Nature des travaux - devis, factures, rapports techniques\
+- qualification en « gros travaux » (art. 606 C. civ.)
+
+🔹 2. Chronologie - date des travaux\
+- proximité avec le décès → élément déterminant pour l’intention
+libérale
+
+🔹 3. Financement - preuves de paiement par l’usufruitière\
+- absence de participation du nu‑propriétaire
+
+🔹 4. Valorisation du bien - estimation avant/après\
+- expertise immobilière
+
+🔹 5. Contexte familial - existence d’un héritier favorisé\
+- absence d’intérêt personnel de l’usufruitière
+
+------------------------------------------------------------------------
+
+4.  Comment formuler juridiquement la démonstration Tu peux structurer
+    l’argumentation ainsi :
+
+5.  Les travaux relèvent du nu‑propriétaire (art. 606 C. civ.).\
+
+6.  Ils ont été financés par l’usufruitière, entraînant son
+    appauvrissement.\
+
+7.  Ils ont enrichi le nu‑propriétaire, qui récupère un bien valorisé.\
+
+8.  L’intention libérale est caractérisée par :
+
+    -   la nature des travaux,\
+    -   leur coût,\
+    -   leur réalisation en fin de vie,\
+    -   l’absence d’intérêt pour l’usufruitière.\
+
+9.  Conclusion : il s’agit d’une donation indirecte / libéralité
+    déguisée, rapportable à la succession.
+
+------------------------------------------------------------------------
+
+5.  Sources
+
+-   AUREP – Travaux réalisés par l’usufruitier : attention à la donation
+    indirecte !\
+-   Jean‑Pascal Richaud – Analyse Cass. 23‑10‑2024\
+-   Le Revenu – Travaux financés par un usufruitier et libéralité
+    rapportable\
+-   Notaridge – Donation déguisée : travaux financés par un usufruitier\
+-   Éditions Francis Lefebvre – Travaux d’amélioration et libéralité
+    rapportable
+
+------------------------------------------------------------------------
+-->

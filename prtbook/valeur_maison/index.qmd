@@ -1,0 +1,11 @@
+---
+title: "valeur de maison"
+author: "pjf"
+date: "2025-12-20"
+description: "sans contrepartie, le rapport de la libéralité est dû"
+categories: [4_evaluation]
+---
+
+NB: le terrain résultant d'une division parcellaire de la rue de Laubach possède désormais une adresse à la rue d'Eschbach.
+
+![](valeur_eschbach.png)

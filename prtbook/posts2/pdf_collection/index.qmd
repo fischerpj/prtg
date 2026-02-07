@@ -1,0 +1,12 @@
+---
+title: "PDF_Collection"
+author: "Pierre F."
+date: "2025-12-19"
+categories: [2_analyse]
+description: "quelques analyses graphiques: cashflow, turnover"
+listing: 
+  type: table
+  contents: 
+    - archived-items.yaml
+  fields: [ filename , description]
+---

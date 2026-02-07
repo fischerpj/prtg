@@ -1,0 +1,26 @@
+# recap propositions
+
+> Par ordre **croissant d'intérêt commun**
+
+- A Lotz_technique caduque
+- B Lotz_revisé_Eschbach
+- C usufruit + libéralités
+- D usufruit optimisant débours
+- E Schott compensation d'usufruit mais sans débours
+<!--
+- (F Salomon divise tout par 2)
+//    "F","Salomon", +33, +38+30,-27,+55,
+-->
+
+```{r, RECAP, echo= FALSE}
+data <- tibble::tribble(
+      ~scenario, ~desc, ~Aline, ~Pierre,~Michele, ~Marguerite,
+      "B", "liberalites seules",+34, +102, -86,+78,
+      "C", "usufruit",+32, +76+25, -78, +75,
+      "D", "usufruit + optimisation",+11,+76+4,-15, +54,
+      "E", "Schott",+14, +74+14,+14, +14,
+) 
+
+data |> gt::gt()
+```
+

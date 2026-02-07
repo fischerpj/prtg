@@ -1,0 +1,68 @@
+---
+title: "bien indivis"
+author: "pjf"
+date: "2026-01-19"
+---
+
+🧭 Question: Comment réagir lorsqu’une donation-partage comporte une moitié indivise d’un immeuble, détenue en indivision entre le donateur et un tiers extérieur à la famille ?
+
+> **Argument**: ➡️ en s'appuyant sur L’arrêt du 2 juillet 2025 (Cass. 1re civ., n° 23‑16.329) la présence d’un seul bien attribué en indivision dans une donation-partage entraîne la disqualification de l’acte dans son ensemble, même si l’indivision ne concerne qu’une quote-part, et même si elle ne touche qu’un seul bien.
+
+> **Conclusion**: la donation-partage est trop avantageuse fiscalement pour demander une requalification.
+
+L’arrêt vise l’indivision entre donataires, mais son raisonnement s’applique également lorsque le bien donné est déjà en indivision avec un tiers extérieur. Parce que :
+
+- La donation-partage doit attribuer des biens divis et individualisés.
+
+- Le donateur ne peut pas partager ce qu’il ne détient pas exclusivement.
+
+- L’indivision avec un tiers empêche par nature une attribution privative et complète, d'autant plus que l'accord du tiers ne semble pas avoir été obtenu.
+
+### 🧩 Pourquoi l’indivision avec un tiers pose problème ?
+
+L’arrêt du 2 juillet 2025 insiste sur un point fondamental :
+
+➡️ La donation-partage doit éviter toute indivision, car sa **finalité est de pacifier la succession**. Or, si le donateur ne détient qu’une moitié indivise : il ne peut pas attribuer un bien complet à un enfant ; il ne peut attribuer qu’un droit indivis, ce qui est incompatible avec la donation-partage ; l’acte devient **juridiquement incohérent.**
+
+De plus, le risque se potentialise lorsque le tiers indivisaire obtient la vente par adjudication contre la volonté du donataire, qui perd 25% de la valeur de son lot en usufruit.
+
+### 🎯 Conséquence juridique immédiate
+
+Si un donateur inclut dans une donation-partage sa moitié indivise d’un immeuble dont l’autre moitié appartient à un tiers :
+
+- 👉 **La donation-partage est irrégulière**: Elle ne respecte pas l’exigence d’attribution exclusive posée par l’article 1075 du Code civil et rappelée par la Cour de cassation.
+
+- 👉 **Elle encourt la requalification en donation simple**: C’est exactement ce que confirme l’arrêt du 2 juillet 2025 :
+
+la qualification dépend du contenu, pas de l’intitulé: dès qu’un bien indivis figure dans un lot, l’acte perd toute nature de partage anticipé.
+
+### 👉 Conséquences pratiques de la requalification
+
+- Les biens donnés seront **rapportés à la succession** au décès du donateur.
+
+- Leur **valeur sera réévaluée** au jour du décès, et non figée au jour de la donation.
+
+- Les **avantages fiscaux** de la donation-partage disparaissent.
+
+Le notaire devra procéder à une liquidation successorale complète.
+
+🛠️ Comment réagir concrètement ?
+
+Si l’acte est déjà signé, les héritiers ou un donataire peuvent :
+
+- demander la requalification en donation simple,
+
+- solliciter l’ouverture des opérations de compte, liquidation et partage,
+
+- faire valoir que l’acte ne respecte pas les conditions de l’article 1075. C’est exactement ce qu’a validé la Cour de cassation dans l’arrêt du 2 juillet 2025.
+
+
+
+
+📌 Conclusion
+Inclure une moitié indivise d’un immeuble détenu avec un tiers dans une donation-partage rend l’acte invalide en tant que donation-partage.  
+La seule issue est :
+
+soit de modifier l’acte pour exclure ce bien,
+
+soit d’accepter la requalification en donation simple, avec toutes ses conséquences successorales.

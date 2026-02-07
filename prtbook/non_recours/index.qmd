@@ -1,0 +1,61 @@
+---
+title: "clause de non-recours"
+author: "pjf"
+date: "2025-12-20"
+description: "contre une fausse déclaration dans une donation-partage est nulle"
+categories: [3_arguments]
+---
+
+![📌](https://fonts.gstatic.com/s/e/notoemoji/16.0/1f4cc/32.png){alt="📌"} Une clause interdisant tout recours en cas de déclaration fausse dans une donation-partage est-elle valable ?
+
+![🎯](https://fonts.gstatic.com/s/e/notoemoji/16.0/1f3af/32.png){alt="🎯"} 
+**Non**. Une telle clause est en principe nulle car elle contrevient à l’ordre public successoral et au droit fondamental d’agir en justice.
+
+![➡️](https://fonts.gstatic.com/s/e/notoemoji/16.0/27a1_fe0f/32.png){alt="➡️"} **Une clause interdisant tout recours contre une fausse déclaration dans une donation-partage est nulle.** Elle serait réputée non écrite, sans affecter la validité du reste de l’acte. De plus Le notaire ne peut pas donner effet à une clause qui sécurise une irrégularité.
+
+
+
+![🧩](https://fonts.gstatic.com/s/e/notoemoji/16.0/1f9e9/32.png){alt="🧩"} Pourquoi cette clause est-elle invalide ?
+
+1\. ![⚖️](https://fonts.gstatic.com/s/e/notoemoji/16.0/2696_fe0f/32.png){alt="⚖️"} Atteinte au droit d’agir en justice
+
+Le droit d’agir en justice est un principe d’ordre public (art. 6 C. civ.).  
+
+Une clause qui interdit à un héritier ou donataire de contester une déclaration fausse (valeur, consistance, rapport, réserve…) revient à renoncer par avance à un droit d’ordre public, ce qui est nul.
+
+La jurisprudence est constante :  
+
+![👉](https://fonts.gstatic.com/s/e/notoemoji/16.0/1f449/32.png){alt="👉"} Toute clause de renonciation anticipée à un recours judiciaire est réputée non écrite.
+
+2\. ![🛡️](https://fonts.gstatic.com/s/e/notoemoji/16.0/1f6e1_fe0f/32.png){alt="🛡️"} Protection de la réserve héréditaire
+
+La donation-partage ne peut pas priver un héritier réservataire de son droit de vérifier :
+
+\- la valeur réelle des biens donnés,  
+
+\- la réalité des déclarations du donateur,  
+
+\- l’égalité ou l’équité du partage.
+
+Une clause qui empêcherait de contester une fausse déclaration pourrait conduire à léser la réserve, ce qui est interdit.
+
+3\. ![📚](https://fonts.gstatic.com/s/e/notoemoji/16.0/1f4da/32.png){alt="📚"} Jurisprudence convergente
+
+Même si les décisions citées dans les résultats de recherche concernent surtout la requalification des fausses donations-partages, elles rappellent un principe essentiel :  
+
+![👉](https://fonts.gstatic.com/s/e/notoemoji/16.0/1f449/32.png){alt="👉"} On ne peut pas neutraliser les mécanismes légaux de protection des héritiers (ex. rapport, réduction, requalification).
+
+Ce principe s’applique a fortiori à une clause qui empêcherait de contester une fausse déclaration.
+
+4\. ![📝](https://fonts.gstatic.com/s/e/notoemoji/16.0/1f4dd/32.png){alt="📝"} Le notaire ne peut pas sécuriser une fraude
+
+Une clause visant à empêcher un recours contre une fausse déclaration reviendrait à :
+
+\- valider une potentielle sous-évaluation,  
+
+\- empêcher la réduction pour atteinte à la réserve,  
+
+\- neutraliser le rapport successoral.
+
+Le notaire ne peut pas donner effet à une clause qui sécurise une irrégularité.
+

@@ -1,0 +1,159 @@
+# usufruit compensé
+
+## Scénario C compensant l'usufruit (avec remise de 17%)
+
+Les présents scénarii sont calculés après la **compensation prioritaire de l'usufruit** perdu à 74 K€ tout en rapportant les travaux et l'hébergement gratuit, **remisé de 17%** supplémentaire.
+
+Ce qui donne en plus à **Aline 32 K€, Marguerite 75 K€, Pierre 26 K€, Michèle -78 K€**.
+
+<!--
+Ce scénario restituerait prioritairement à Pierre F. l'usufruit de 74 K€, qui serait néanmoins comptabilisé comme "don" dans la réunion fictive restante.
+
+En portant la remise de Michèle F. et Marguerite B. à 17%, cette alternative également offerte à l'accord amiable des soeurs, présente à chacune d'elle une amélioration financière sensible sur le premier scénario.
+
+Ainsi aux 129-74 K€ d'avoir bancaire restant s'ajouteront dans ce cas les débours désormais ramenés à 36 K€ pour Marguerite B. et 41 K€ pour Michèle F. nécessaire pour assurer le versement de 69 K€ à Aline S. et un complément de 63 K€ s'ajoutant à l'usufruit préalablement récupéré de Pierre F.
+
+-->
+
+```{r, RESTI_data, echo= FALSE}
+data1 <- tibble::tribble(
+      ~beneficiaire, ~deja_recu, ~nature,
+      "aline", -71, "travaux",
+      "pierre", -76.84, "usufruit+don",
+      "michèle", -160+10, "loyer",
+      "michèle", -30, "mobilier",
+      "michèle", -1.5, "travaux",
+      "marguerite", -27, "travaux",
+      "marguerite", -0*(160+10), "maison",
+      "cash", 129-74, "banque"
+) |>
+  dplyr::summarise(deja_recu = sum(deja_recu), .by = tidyr::matches("beneficiaire|nature")) |>
+  tibble::rowid_to_column("id") |>
+  dplyr::add_count(beneficiaire) |>
+  dplyr::mutate(reunion = sum(abs(deja_recu)),
+                quotepart = dplyr::case_when(!beneficiaire == "cash"~ reunion/(4*n),
+                                             TRUE~0),
+                a_recevoir= quotepart+deja_recu)
+```
+
+```{r, RESTI_gt, echo= FALSE}
+bene <- data1$beneficiaire |> unique() 
+bene <- bene[!bene %in% c('cash')]
+
+data1 |>
+  dplyr::select(-dplyr::matches("^id$|^n$|^reunion")) |>
+  dplyr::filter(beneficiaire != "cash") |>
+  gt::gt(groupname_col = "beneficiaire")  |>
+   gt::summary_rows(
+    groups = bene,
+    columns = c("deja_recu","a_recevoir","quotepart"),
+    fns = list(
+      total = ~sum(., na.rm = TRUE)
+    ),
+    side= "top"
+  ) |>
+  gt::grand_summary_rows(
+    columns = c("deja_recu","a_recevoir","quotepart"),
+    fns = list(
+      reunion = ~sum(., na.rm = TRUE)
+    ),
+    side= "top"
+    ) |>
+  gt::fmt_number(decimals=1) |>
+  gt::tab_header("scenario 2 après restitution d'usufruit et remises de 17%")
+
+```
+
+## Scénario D annulant presque les débours
+
+ce scénario extrême, est **optimisé** pour minimiser symboliquement (mais non éviter complétement ) la sortie d'argent à Michèle au prix de fortes concessions de la part de Aline S et Pierre F. sur les avantages indéniables que les premières ont déjà perçus dans le passé.
+
+les valeurs additionelles distribuées sont de **Aline 11 K€, Marguerite 55 K€, Pierre 4 K€, Michèle -15 K€** ( une somme symbolique face à la reconnaissance d'un avantage dispropritionné)
+
+```{r, REMISE_gt, echo= FALSE}
+data2 <- tibble::tribble(
+      ~beneficiaire, ~deja_recu, ~nature,
+      "aline", -71, "travaux",
+      "pierre", -76.84, "don",
+      "michèle", -160+28+20+20+10+10+7, "loyer",
+      "michèle", -30, "mobilier",
+      "michèle", -1.5, "travaux",
+      "marguerite", -27, "travaux",
+      "marguerite", -0*(160+23+15+25+10+10+2.5), "maison",
+      "cash", 129-74, "banque"
+) |>
+  dplyr::summarise(deja_recu = sum(deja_recu), .by = tidyr::matches("beneficiaire|nature")) |>
+  tibble::rowid_to_column("id") |>
+  dplyr::add_count(beneficiaire) |>
+  dplyr::mutate(reunion = sum(abs(deja_recu)),
+                quotepart = dplyr::case_when(!beneficiaire == "cash"~ reunion/(4*n),
+                                             TRUE~0),
+                a_recevoir= quotepart+deja_recu)
+data2 |>
+  dplyr::select(-dplyr::matches("^id$|^n$|^reunion")) |>
+  dplyr::filter(beneficiaire != "cash") |>
+  gt::gt(groupname_col = "beneficiaire")  |>
+   gt::summary_rows(
+    groups = bene,
+    columns = c("deja_recu","a_recevoir","quotepart"),
+    fns = list(
+      total = ~sum(., na.rm = TRUE)
+    ),
+    side= "top"
+  ) |>
+  gt::grand_summary_rows(
+    columns = c("deja_recu","a_recevoir","quotepart"),
+    fns = list(
+      reunion = ~sum(., na.rm = TRUE)
+    ),
+    side= "top"
+    ) |>
+  gt::fmt_number(decimals=1) |>
+  gt::tab_header("scenario 3 annulant presque les debours")
+```
+
+## Scénario E aka Schott annulant toutes les libéralités
+
+Ce scénario proposé par Me Schott compense **prioritaiement l'usufruit**, annulle à 100%  la prise en compte des travaux, de l'hébergement gratuit, du mobilier (ce qui est très avantageux pour les cohéritières) et redistribue à égalité les 129-74 restants, soit environ **14 K€ par héritier.**. Somme toute, le meilleur deal pour tous.
+
+```{r, REMISE_gt_schott, echo= FALSE}
+data2 <- tibble::tribble(
+      ~beneficiaire, ~deja_recu, ~nature,
+      "aline", -0*71, "travaux",
+      "pierre", 0*(-76.84+2.84), "don",
+      "michèle", -0*(160+28+20+20+10+10+7), "loyer",
+      "michèle", -30*0, "mobilier",
+      "michèle", -1.5*0, "travaux",
+      "marguerite", -27*0, "travaux",
+      "marguerite", -0*(160+23+15+25+10+10+2.5), "maison",
+      "cash", 129-74, "banque"
+) |>
+  dplyr::summarise(deja_recu = sum(deja_recu), .by = tidyr::matches("beneficiaire|nature")) |>
+  tibble::rowid_to_column("id") |>
+  dplyr::add_count(beneficiaire) |>
+  dplyr::mutate(reunion = sum(abs(deja_recu)),
+                quotepart = dplyr::case_when(!beneficiaire == "cash"~ reunion/(4*n),
+                                             TRUE~0),
+                a_recevoir= quotepart+deja_recu)
+data2 |>
+  dplyr::select(-dplyr::matches("^id$|^n$|^reunion")) |>
+  dplyr::filter(beneficiaire != "cash") |>
+  gt::gt(groupname_col = "beneficiaire")  |>
+   gt::summary_rows(
+    groups = bene,
+    columns = c("deja_recu","a_recevoir","quotepart"),
+    fns = list(
+      total = ~sum(., na.rm = TRUE)
+    ),
+    side= "top"
+  ) |>
+  gt::grand_summary_rows(
+    columns = c("deja_recu","a_recevoir","quotepart"),
+    fns = list(
+      reunion = ~sum(., na.rm = TRUE)
+    ),
+    side= "top"
+    ) |>
+  gt::fmt_number(decimals=1) |>
+  gt::tab_header("scenario 3 annulant les debours")
+```

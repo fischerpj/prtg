@@ -1,0 +1,67 @@
+# solution Salomon
+
+> Hypothèse: **reconnaitre valide peu ou prou les notions** de perte d'usufruit, l'avantage de l'hébergement gratuit, les valorisations en travaux et le mobilier restant.
+
+> Solution: **couper en deux** toutes les valeurs et partager la masse.
+
+## Double réduction
+
+Les **prétentions tout comme les avantages** sont divisés par deux.
+
+Ainsi Pierre F. accepte que la compensation de son usufruit réduite de 50% à 74 K€ /2, soit comptabilisé comme "don" préalable dans la réunion fictive restante.
+
+L'hébergement de Michèle serait comptabilisé à hauteur de 160 K€ /2 et les travaux de 100 K€ /2 à ventiler au prorata des bénéficiaires.
+
+En addition à la compensation pour moitié de l'usufruit, les valeurs additionelles sont distribuées **Aline 33 K€, Marguerite 55 K€, Pierre 30 K€, Michèle -27 K€**. Cette solution célèbre reste significativement pénalisante pour Michèle F. qui aura du mal à défendre un avantage nul auprès du juge.
+
+```{r, RESTI_data, echo= FALSE}
+data1 <- tibble::tribble(
+      ~beneficiaire, ~deja_recu, ~nature,
+      "aline", -71/2, "travaux",
+      "pierre", -76.84/2, "don",
+      "michèle", -(160)/2, "loyer",
+      "michèle", -30/2, "mobilier",
+      "michèle", -1.5/2, "travaux",
+      "marguerite", -27/2, "travaux",
+      "marguerite", -0*(160+10), "maison",
+      "cash", 129-74/2, "banque"
+) |>
+  dplyr::summarise(deja_recu = sum(deja_recu), .by = tidyr::matches("beneficiaire|nature")) |>
+  tibble::rowid_to_column("id") |>
+  dplyr::add_count(beneficiaire) |>
+  dplyr::mutate(reunion = sum(abs(deja_recu)),
+                quotepart = dplyr::case_when(!beneficiaire == "cash"~ reunion/(4*n),
+                                             TRUE~0),
+                a_recevoir= quotepart+deja_recu)
+```
+
+```{r, RESTI_gt, echo= FALSE}
+bene <- data1$beneficiaire |> unique() 
+bene <- bene[!bene %in% c('cash')]
+
+data1 |>
+  dplyr::select(-dplyr::matches("^id$|^n$|^reunion")) |>
+  dplyr::filter(beneficiaire != "cash") |>
+  gt::gt(groupname_col = "beneficiaire")  |>
+   gt::summary_rows(
+    groups = bene,
+    columns = c("deja_recu","a_recevoir","quotepart"),
+    fns = list(
+      total = ~sum(., na.rm = TRUE)
+    ),
+    side= "top"
+  ) |>
+  gt::fmt_number(
+    decimals=1) |>
+  gt::grand_summary_rows(
+    columns = c("deja_recu","a_recevoir","quotepart"),
+    fns = list(
+      reunion = ~sum(., na.rm = TRUE)
+    ),
+    side= "top"
+    ) |>
+  gt::fmt_number(
+    decimals=1) |>
+  gt::tab_header("scénario Salomon")
+```
+

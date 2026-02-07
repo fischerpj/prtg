@@ -1,0 +1,35 @@
+project:
+  type: book
+
+book:
+  title: "Schott2 V0.2"
+  subtitle: "following 12Jan2026 and 3Feb2026"
+  author: "Pierre J. Fischer"
+  date: "02/06/2026"
+  chapters:
+    - index.qmd
+    - chapters/1_relevés_bancaires/index.qmd
+    - chapters/2_succession_Georges/index.qmd
+    - chapters/3_docs_demandés/index.qmd
+    - chapters/3_documents_transmis/index.qmd
+    - chapters/3_documents_reçus/index.qmd
+    - chapters/40_recaps/index.qmd
+    - chapters/41_partage/propositions.qmd
+    - chapters/41_partage/reunion_fictive.qmd
+    - chapters/41_partage/avec_restitution.qmd
+    - chapters/5_hebergement/index.qmd
+    - chapters/6_rue_Eschbach/index.qmd
+    - chapters/7_travaux/index.qmd
+
+execute: 
+    enabled: true
+  
+bibliography: references.bib
+
+format:
+  html:
+    theme:
+      - lumen
+  pdf:
+    documentclass: scrreprt
+

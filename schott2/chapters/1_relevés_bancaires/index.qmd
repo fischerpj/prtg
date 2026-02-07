@@ -1,0 +1,28 @@
+---
+title: "banques et factures"
+author: "pjf"
+date: "2026-01-02"
+listing:
+  type: table
+  contents: 
+    - "../3_documents_transmis/CMCC/*"
+    - "../3_documents_transmis/CMLB/*"
+    - "../3_documents_transmis/CE/*"
+    - "../3_documents_transmis/*.pdf"
+---
+
+> Nous avons obtenu a) du Crédit_Mutuel pour 2012 à 2021 le détail de **Compte Courant** (.xlsx) et les relevés du **Livret Bleu** (.pdf) et b) de la **Caisse d'Epargne** les soldes de Livret_A, livret_GrandFormat et CompteCourant. Leur solde cumulé représente 80% de l'avoir bancaire.
+
+> NB. Le fichier **cma_raw.csv** a été enrichi d'un attribut "group" qui permet le groupement des sous-totaux et l'analyse détaillée en **lotz_technique_V0.99**.
+
+> Par ailleurs, Me Lotz nous a fourni les **factures** afférentes à la réconciliation des 40 gros chèques parmi lesquels les **gros travaux** se montent à 104 K€.
+
+obtenu par Me Schott CM= 87410,32 € et CE 21170,80 €
+
+questions concernant les mouvements:
+
+-   frais de succession 873
+
+-   frais de relevés bancaires 21\*8+7 = 175 qui est le demandeur ? (alors que je les ai obtenus et payés via Office Lumière de Besançon)
+
+-   virements après le décès (quoi et qui) : Eau, Schittly, Diffiné, Wendling pour 6493

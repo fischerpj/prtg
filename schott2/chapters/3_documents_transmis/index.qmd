@@ -1,0 +1,16 @@
+---
+title: "docs transmis"
+author: "pjf"
+date: "2026-01-02"
+listing:
+  type: table
+  contents: 
+    - "CMCC/*"
+    - "CMLB/*.pdf"
+    - "CE/*.pdf"
+    - "MISC/*"
+---
+
+> à la demande de Me Schott: relevés, factures, .. (En pièces jointes)
+
+![NB: ci dessus est un fac-similé statique pour le PDF](MISC/FACSIMILE2_docs_transmis.png){width="500"}

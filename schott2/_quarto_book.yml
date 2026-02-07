@@ -1,0 +1,34 @@
+project:
+  type: book
+
+book:
+  title: "schott2"
+  subtitle: "following 12Jan2026"
+  author: "Pierre J. Fischer"
+  date: "1/16/2026"
+  chapters:
+    - index.qmd
+    - chapters/intro.qmd
+    - chapters/1_relevés_bancaires/index.qmd
+    - chapters/2_succession_Georges/index.qmd
+    - chapters/9_docs_demandés/index.qmd
+    - chapters/9_documents_reçus/index.qmd
+    - chapters/9_documents_transmis/index.qmd
+    - chapters/8_partage/propositions.qmd
+    - chapters/8_partage/reunion_fictive.qmd
+    - chapters/8_partage/avec_restitution.qmd
+    - chapters/8_partage/noeud_gordien.qmd
+    - chapters/10_recaps/index.qmd
+    - chapters/2b_regime_avant_1966/index.qmd 
+    - chapters/3_bien_indivis/index.qmd
+    - chapters/notes/index.qmd
+  
+execute: 
+    enabled: true
+  
+bibliography: references.bib
+
+format:
+  html:
+    theme:
+      - lumen

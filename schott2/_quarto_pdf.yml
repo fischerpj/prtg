@@ -1,0 +1,27 @@
+project:
+  type: book
+
+book:
+  title: "schott2"
+  subtitle: "following 12Jan2026"
+  author: "Pierre J. Fischer"
+  date: "1/16/2026"
+  chapters:
+    - index.qmd
+    - chapters/1_relevés_bancaires/index.qmd
+    - chapters/2_succession_Georges/index.qmd
+    - chapters/9_documents_reçus/index.qmd
+    - chapters/9_documents_transmis/index.qmd 
+    - chapters/9_docs_demandés/index.qmd
+    
+execute: 
+    enabled: true
+  
+bibliography: references.bib
+
+format:
+  html:
+    theme:
+      - lumen
+  pdf:
+    documentclass: scrreprt

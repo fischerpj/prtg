@@ -1,0 +1,26 @@
+---
+title: "Gros Chèques "
+author: "pjf"
+date: "2024-04-09"
+categories: [2_analyse]
+---
+
+> l'identification des gros chèques supérieurs à 1000 €.
+
+```{r, dataset}
+library(cma)
+library(data.table)
+
+data <- mini_long_() |> nosolde_()  
+```
+
+```{r, exception}
+data_exception <- data |> cma::grochq_()
+data_exception |> 
+  dplyr::arrange(value) |>
+  dplyr::mutate(cumul = cumsum(value)) |>
+  dplyr::relocate(dplyr::matches("rid|ts")) |>
+  dplyr::select(-dplyr::matches("^year|^month|^var|^isZanette|xdc")) |>
+  gt::gt() |>
+  gt::fmt_number(decimals=0)
+```

@@ -2,7 +2,6 @@
 title: "TOC of Blog2"
 author: "pjf"
 date: "2026-01-02"
-categories: []
 listing:
   type: table
   contents: posts2

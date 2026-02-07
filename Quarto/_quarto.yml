@@ -19,6 +19,16 @@ format:
     theme:
       - lumen
     css: styles.css
-
-
-
+  pdf:
+    documentclass: scrartcl
+    classoption: [landscape]
+    papersize: A4
+    geometry:
+      - top=30mm
+      - left=40mm
+      - right=40mm
+      - heightrounded
+    mainfont: Lato
+    monofont: Arial
+    colorlinks: true
+filters: []

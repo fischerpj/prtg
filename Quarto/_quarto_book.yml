@@ -1,0 +1,32 @@
+project:
+  type: book
+  output-dir: docs
+
+execute:
+  echo: false
+  
+book:
+  title: "Partage26"
+  chapters: 
+    - index.qmd
+    - posts2/1_hebergement/index.qmd
+    - posts2/2_maison_postérieure/index.qmd
+    
+format:
+  html:
+    theme:
+      - lumen
+    css: styles.css
+  pdf:
+    documentclass: scrartcl
+    classoption: [landscape]
+    papersize: A4
+    geometry:
+      - top=30mm
+      - left=40mm
+      - right=40mm
+      - heightrounded
+    mainfont: Lato
+    monofont: Arial
+    colorlinks: true
+filters: []

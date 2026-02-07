@@ -1,0 +1,13 @@
+---
+title: "docs reçus"
+author: "pjf"
+date: "2026-01-02"
+listing:
+  contents: 
+    - SCHOTT_post12jan26_PV/*.pdf
+    - "SCHOTT_pre12Jan26_PARTAGE JUDICIAIRE SUCCESSION DURRENBERGER Aline veuve FISCHER/*.pdf"
+    - "CGEE3Feb26/*.pdf"
+  type: table    
+---
+
+> tous les documents reçus de Me Schott avant le 12 Jan 2026, puis après.
