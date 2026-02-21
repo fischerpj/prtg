@@ -10,7 +10,7 @@ README.md for "partg"
 - DATA is cma::
 - 2552 PUSHUP GH
 - 2606 2fev26 envoi réponse 2 à Schott
-- 2606 PUSHUP + remove
+- 2606,2608 PUSHUP + remove
 
 in Quarto: quarto render
 - Copy Files Into scp -r C:\_myHUL\_MERTZ_legacy\PARTAGE_JUDICIAIRE\TRIBUNAL_HAGUENAU\docs_haguenau pepo@192.168.8.133:/home/pepo
